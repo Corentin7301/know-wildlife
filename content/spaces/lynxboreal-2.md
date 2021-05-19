@@ -1,6 +1,6 @@
 ---
 
-imageLink: /wildlife/lynx-label_wzeuem
+imageUrl: lynx-label_wzeuem
 name: lynx boreal
 
 ---
