@@ -1,8 +1,6 @@
 import global from './site.config.json'
 
 
-<<<<<<< HEAD
-=======
 const create = async (feed) => {
   feed.options = {
     title: global.siteUrl,
@@ -39,7 +37,6 @@ const create = async (feed) => {
   }
 }
 
->>>>>>> 25e597c (update nuxt & tailwind dependencies (jit not work))
 export default {
   ssr: false,
   target: 'static',
@@ -132,7 +129,7 @@ export default {
         rel: 'icon',
         type: 'image/x-icon',
         // CHANGE FAVICON NAME HERE
-        href: '/favicon.svg'
+        href: '/favicon.png'
       },
       {
         hid: "canonical",
@@ -188,6 +185,7 @@ export default {
     '@nuxtjs/dayjs',
     '@nuxtjs/cloudinary',
     'vue-social-sharing/nuxt',
+    '@nuxtjs/markdownit',
 
 
     // always at the end of array
@@ -222,8 +220,6 @@ export default {
     },
   },
 
-<<<<<<< HEAD
-=======
 
   markdownit: {
     preset: 'default',
@@ -233,7 +229,6 @@ export default {
     // use: ['markdown-it-div', 'markdown-it-attrs'],
   },
 
->>>>>>> 25e597c (update nuxt & tailwind dependencies (jit not work))
   // CHANGE DATE COUNTRY HERE
   dayjs: {
     locales: ['fr'],
@@ -241,7 +236,7 @@ export default {
   },
 
   cloudinary: {
-    cloudName: process.env.CLOUD_NAME,
+    cloudName: 'corentin7301',
     apiKey: process.env.API_KEY,
     apiSecret: process.env.API_SECRET,
     useComponent: true
@@ -264,8 +259,6 @@ export default {
     name: 'page-transition',
     mode: 'out-in',
   },
-<<<<<<< HEAD
-=======
 
   hooks: {
     'content:file:beforeInsert': (document) => {
@@ -282,5 +275,4 @@ export default {
       }
     }
   }
->>>>>>> 25e597c (update nuxt & tailwind dependencies (jit not work))
 }

@@ -1,6 +1,17 @@
 <template>
-  <div class="container p-2.5 flex flex-col items-center">
-    <img :src="this.home.image" :alt="this.$global.siteName" class=" rounded-xl lg:p-0 lg:items-start">
+  <div class="grid grid-cols-2 gap-x-5 gap-y-6 py-11 px-2">
+    <nuxt-link to="#" class=" relative flex justify-center rounded-full">
+      <cld-image
+      public-id="/wildlife/lynx-label_wzeuem"
+      quality="auto"
+      aspectRatio="1:1"
+      crop="fill"
+      gravity="center"
+      loading="lazy"
+      class=" w-1:2 cursor-pointer"
+      />
+      <h2 class="absolute bottom-3 uppercase font-bold text-sm text-eggWhite">lynx boreal</h2>
+    </nuxt-link>
   </div>
 </template>
 
@@ -16,14 +27,6 @@
         content: this.$global.siteMetaDescription
       }],
      }
-    },
-    async asyncData({
-      $content,
-    }) {
-      const home = await $content('pages', "home").fetch()
-      return {
-        home
-      }
     },
   }
 

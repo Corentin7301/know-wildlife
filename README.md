@@ -94,7 +94,7 @@ Il apparaîtra dans la **configuration des cards de partage social**, dans **la 
 
 Il apparaîtra dans la **configuration des cards de partage social**.
 
-* #### **style.colors.primaryColor** : Couleur principale du site. EN HEXADECIMAL Exemple : #41b883.
+* #### **style.colors.lightGreen** : Couleur principale du site. EN HEXADECIMAL Exemple : #41b883.
 
 * #### **style.colors.backgroundColor** : Couleur de fond du site. EN HEXADECIMAL Exemple : #606f7b.
 
@@ -334,7 +334,7 @@ It will appear in the **social share cards configuration**, in **contact page** 
 It will appear in the **social share cards configuration**.
 
 
-* #### **style.colors.primaryColor** : Main site color. EN HEXADECIMAL Example : #41b883.
+* #### **style.colors.lightGreen** : Main site color. EN HEXADECIMAL Example : #41b883.
 
 * #### **style.colors.backgroundColor** : Background site color. EN HEXADECIMAL Example : #606f7b.
 

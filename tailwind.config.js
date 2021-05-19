@@ -19,10 +19,10 @@ module.exports = {
         footerBackgroundColor: global.style.colors.footerBackgroundColor,
         lightColor: global.style.colors.lightColor,
         darkColor: global.style.colors.darkColor,
-        primaryColor: global.style.colors.primaryColor,
+        lightGreen: global.style.colors.lightGreen,
       },
       outline: theme => ( {
-          primaryColor: `2px solid ${theme('colors.primaryColor')}`,
+          lightGreen: `2px solid ${theme('colors.lightGreen')}`,
         })
     },
     fontFamily: {

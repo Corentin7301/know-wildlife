@@ -18,7 +18,7 @@
             <p v-if="this.submitStatus === 'ERROR' && $v.content.$invalid" class=" text-red-300 text-xs">Remplir le contenu.</p>
             <!-- <p v-if="$v.email.$invalid" class=" text-red-300 text-xs">Remplir le contenu.</p> -->
         <input type="submit" @click.prevent="sendForm"
-          class=" py-2.5 w-52 mt-5 bg-primaryColor text-lightColor transition-all cursor-pointer border-none rounded-md hover:bg-lightColor hover:text-primaryColor">
+          class=" py-2.5 w-52 mt-5 bg-lightGreen text-lightColor transition-all cursor-pointer border-none rounded-md hover:bg-lightColor hover:text-lightGreen">
           
       </form>
 
@@ -92,11 +92,11 @@
 
 <style scoped>
   .inputsContact {
-    @apply p-2 w-72 mt-5 mb-1 rounded-md text-primaryColor border-solid border-2 border-primaryColor
+    @apply p-2 w-72 mt-5 mb-1 rounded-md text-lightGreen border-solid border-2 border-lightGreen;
   }
 
   .inputsContact:focus {
-    @apply outline-primaryColor
+    @apply outline-lightGreen;
   }
 
 </style>

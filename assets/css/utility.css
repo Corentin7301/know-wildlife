@@ -1,9 +1,9 @@
 .container {
-  @apply my-0 mx-auto p-3 max-w-full min-h-screen no-underline relative flex flex-col lg:flex lg:p-0
+  @apply my-0 mx-auto p-3 max-w-full min-h-screen no-underline relative flex flex-col lg:flex lg:p-0;
 }
 
 .nuxt-link-active {
-  @apply text-primaryColor
+  @apply text-lightGreen;
 }
 
 @media screen and (min-width: 1216px) {
