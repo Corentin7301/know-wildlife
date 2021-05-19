@@ -3,10 +3,13 @@
     <div class=" h-screen bg-darkGreen text-eggWhite font-montserrat">
 
       <!-- 1 -->
-      <div class=" frame relative h-screen bottomGradient bg-lynxBoreal flex justify-center">
+      <div class=" frame relative h-screen bg-center bg-cover bg-no-repeat flex justify-center" :style="`background: linear-gradient(179.94deg, rgba(196, 196, 196, 0) 70.79%, #373D20 99.95%), url(${spaceDatas.firstImageUrlFull});
+        background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;`">
         <h1
-          class=" speciesName absolute top-20 xl:top-36 right-5 xl:right-36 font-medium xl:text-5xl text-4xl uppercase"
-          x-text="name">{{ spaceDatas.name }}</h1>
+          class=" speciesName absolute top-20 xl:top-36 right-5 xl:right-36 font-medium xl:text-5xl text-4xl uppercase ">
+          {{ spaceDatas.name }}</h1>
         <svg class="w-10 h-10 absolute bottom-8 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path>
@@ -18,13 +21,8 @@
         <h2 class=" scientificName uppercase text-center font-medium text-4xl">{{ spaceDatas.scientificName }}</h2>
         <h3 class=" uppercase text-center mt-14">repartition</h3>
         <div class=" xl:flex items-center justify-center mt-4 xl:mt-10">
-          <cld-image
-          :public-id="`/wildlife/${spaceDatas.mapUrl}`"
-          quality="auto"
-          loading="lazy"
-          class="w-full xl:w-1/2 m-auto xl:m-0"
-          alt="carte de répartition"
-          />
+          <cld-image :public-id="`/wildlife/${spaceDatas.mapUrl}`" quality="auto" loading="lazy"
+            class="w-full xl:w-1/2 m-auto xl:m-0" alt="carte de répartition" />
           <div class=" xl:w-1/3 px-12 space-y-10">
             <h3 class=" uppercase mt-12">caractéristiques</h3>
 
@@ -67,7 +65,10 @@
       </div>
 
       <!-- 3 -->
-      <div class=" frame relative bottomTopGradient h-screen">
+      <div class=" frame relative h-screen" :style="`background: linear-gradient(180deg, #373D20 0%, rgba(55, 61, 32, 0) 9.43%, rgba(55, 61, 32, 0) 87.14%, #373D20 100%), url(${spaceDatas.secondImageUrlFull});
+        background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;`">
         <div
           class=" animatedSquare1 absolute left-8 xl:left-16 bottom-24 bg-whiteTransparent rounded-xl blur shadow-xl space-y-3 xl:space-y-4 px-5 xl:px-10 py-4 xl:py-8">
           <p class="font-normal xl:text-3xl">Période de rut : {{ spaceDatas.rutPeriod }}</p>
@@ -78,7 +79,10 @@
       </div>
 
       <!-- 4 -->
-      <div class=" frame relative h-screen topGradient">
+      <div class=" frame relative h-screen" :style="`background: linear-gradient(180deg, rgba(55, 61, 32, 0.31) 0%, rgba(55, 61, 32, 0) 12.66%, rgba(55, 61, 32, 0) 83.28%, rgba(55, 61, 32, 0.27) 100%), url(${spaceDatas.thirdImageUrlFull});
+        background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;`">
         <div
           class=" animatedSquare2 absolute top-16 right-5 xl:right-28 bg-whiteTransparent text-darkGreen rounded-xl blur shadow-xl xl:space-y-4 px-5 xl:px-10 py-4 xl:py-8">
           <p class="font-normal xl:text-3xl">Traces : {{ spaceDatas.paws }}</p>

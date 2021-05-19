@@ -1,6 +1,6 @@
 <template>
   <div class=" h-screen indexBackground flex justify-center p-12">
-    <h1 class=" uppercase text-3xl font-medium">share wildlife</h1>
+    <h1 class=" uppercase text-3xl font-medium">know wildlife</h1>
     <svg class="w-10 h-10 absolute bottom-8 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path>

@@ -2,11 +2,11 @@
 
 miniatureUrl: lynxboreal/lynx-label_wzeuem
 firstImageUrl: lynxboreal/lynx-boreal-2_raeyhs
-firstImageUrlFull: https://res.cloudinary.com/corentin7301/image/upload/v1621438048/wildlife/lynxboreal/lynx-boreal-2_raeyhs.jpg
+firstImageUrlFull: https://res.cloudinary.com/corentin7301/image/upload/q_auto/c_scale/fl_lossy/v1621438048/wildlife/lynxboreal/lynx-boreal-2_raeyhs.jpg
 secondImageUrl: lynxboreal/baby-lynx-1_cpck5x
-secondImageUrlFull: https://res.cloudinary.com/corentin7301/image/upload/v1621438040/wildlife/lynxboreal/baby-lynx-1_cpck5x.jpg
+secondImageUrlFull: https://res.cloudinary.com/corentin7301/image/upload/q_auto/c_scale/fl_lossy/v1621438040/wildlife/lynxboreal/baby-lynx-1_cpck5x.jpg
 thirdImageUrl: lynxboreal/piste-lynx-1_o99rh1
-thirdImageUrlFull: https://res.cloudinary.com/corentin7301/image/upload/v1621438055/wildlife/lynxboreal/piste-lynx-1_o99rh1.jpg
+thirdImageUrlFull: https://res.cloudinary.com/corentin7301/image/upload/q_auto/c_scale/fl_lossy/v1621438055/wildlife/lynxboreal/piste-lynx-1_o99rh1.jpg
 name: lynx boreal
 scientificName: lynx lynx
 mapUrl: lynxboreal/map_j1irph
