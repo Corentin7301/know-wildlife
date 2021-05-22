@@ -3,12 +3,12 @@
     <div class=" h-screen bg-darkGreen text-eggWhite font-montserrat">
 
       <!-- 1 -->
-      <div class=" frame relative h-screen bg-center bg-cover bg-no-repeat flex justify-center" :style="`background: linear-gradient(179.94deg, rgba(196, 196, 196, 0) 70.79%, #373D20 99.95%), url(${spaceDatas.firstImageUrlFull});
+      <div class=" frame relative h-screen flex justify-center" :style="`background: linear-gradient(179.94deg, rgba(196, 196, 196, 0) 70.79%, #373D20 99.95%), url(${spaceDatas.firstImageUrlFull});
         background-position: center;
     background-size: cover;
     background-repeat: no-repeat;`">
         <h1
-          class=" speciesName absolute top-20 xl:top-36 right-5 xl:right-36 font-medium xl:text-5xl text-4xl uppercase ">
+          class=" specieName absolute top-20 xl:top-36 right-5 xl:right-36 font-medium xl:text-5xl text-4xl uppercase ">
           {{ spaceDatas.name }}</h1>
         <svg class="w-10 h-10 absolute bottom-8 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg">
@@ -90,6 +90,7 @@
           <p class="font-normal xl:text-3xl">Prédateurs : {{ spaceDatas.predators }}</p>
         </div>
       </div>
+        <Footer />
     </div>
   </div>
 </template>
@@ -97,6 +98,12 @@
 
 
 <script>
+    import {
+      gsap
+    } from "gsap";
+    import {
+      ScrollTrigger
+    } from "gsap/ScrollTrigger";
   export default {
     async asyncData({
       $content,
@@ -107,7 +114,79 @@
       return {
         spaceDatas
       }
-    }
+    },
+
+    mounted() {
+      gsap.registerPlugin(ScrollTrigger);
+      ScrollTrigger.refresh()
+
+      let speciesNameAnimation = gsap.timeline()
+      speciesNameAnimation
+        .from(".specieName", {
+          x: 400,
+          duration: 1
+        }, "+=0.5")
+
+
+      gsap.utils.toArray(".frame").forEach(function (e) {
+        let scientificName = e.querySelectorAll(".scientificName");
+        let animatedSquare1 = e.querySelectorAll(".animatedSquare1");
+        let animatedSquare2 = e.querySelectorAll(".animatedSquare2");
+        let firstScrollBottom = e.querySelector(".firstScrollBottom");
+
+
+        let tl = gsap.timeline({
+            scrollTrigger: {
+              trigger: e,
+              pin: e,
+              scrub: 0.5,
+              start: "top top",
+              end: "+=50%",
+              // markers:true
+            }
+          })
+          .from(scientificName, {
+            scale: 0.7,
+            duration: 2,
+            ease: 'power2.out',
+            stagger: 0.6
+          }, 0)
+          .from(animatedSquare1, {
+            x: -550,
+            duration: 2,
+            ease: 'power2.out',
+            stagger: 0.6
+          }, 0)
+          .from(animatedSquare2, {
+            x: 750,
+            duration: 2,
+            ease: 'power2.out',
+            stagger: 0.6
+          }, 0)
+          .from(firstScrollBottom, {
+            xPercent: 150,
+            duration: 5,
+            ease: 'power2.out',
+            stagger: 0.6
+          }, 0)
+          .to({}, {
+            duration: 0.3
+          })
+      })
+    },
+
   }
 
 </script>
+
+<style scoped>
+  .blur {
+    backdrop-filter: blur(20px);
+    box-shadow: inset -3px -3px 24px -2px rgba(0, 0, 0, 0.25);
+  }
+
+  .frame {
+    overflow: hidden;
+  }
+
+</style>

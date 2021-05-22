@@ -156,7 +156,7 @@ export default {
       src: '@/plugins/variables.js'
     },
     {
-      src: '@/plugins/Vuelidate'
+      src: '@/plugins/Vuelidate.js'
     },
   ],
   // auto import des comp.
@@ -175,9 +175,6 @@ export default {
     },
   },
 
-  // tailwindcss: {
-  //   jit: true
-  // },
 
 
   modules: [
