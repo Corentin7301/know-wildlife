@@ -22,7 +22,7 @@
         <h3 class=" uppercase text-center mt-14">repartition</h3>
         <div class=" xl:flex items-center justify-center mt-4 xl:mt-10">
           <cld-image :public-id="`/wildlife/${spaceDatas.mapUrl}`" quality="auto" loading="lazy"
-            class="w-full xl:w-1/2 m-auto xl:m-0" alt="carte de répartition" />
+            class="w-full xl:w-1/2 mx-auto xl:m-0 flex items-center justify-center" alt="carte de répartition" />
           <div class=" xl:w-1/3 px-12 space-y-10">
             <h3 class=" uppercase mt-12">caractéristiques</h3>
 
