@@ -1,9 +1,0 @@
----
-label: Pages1
-hide_body: false
-fields:
-- name: image
-  type: text
-  config:
-    required: false
-  label: image
