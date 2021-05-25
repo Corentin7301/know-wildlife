@@ -7,13 +7,6 @@ sections:
 - type: document
   path: site.config.json
   label: Configuration
-- type: directory
-  path: content/pages
-  label: Pages
-  create: all
-  match: "**/*"
-  templates:
-  - pages1
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
