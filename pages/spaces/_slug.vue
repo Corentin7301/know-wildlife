@@ -10,10 +10,7 @@
         <h1
           class=" specieName absolute top-20 xl:top-36 right-5 xl:right-36 font-medium xl:text-5xl text-4xl uppercase ">
           {{ spaceDatas.name }}</h1>
-        <svg class="w-10 h-10 absolute bottom-8 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path>
-        </svg>
+            <scroll-to-spaces/>
       </div>
 
       <!-- 2 -->
@@ -152,7 +149,7 @@
             stagger: 0.6
           }, 0)
           .from(animatedSquare1, {
-            x: -550,
+            x: -750,
             duration: 2,
             ease: 'power2.out',
             stagger: 0.6

@@ -1,14 +1,14 @@
 <template>
-  <div id="footer" class=" relative bg-lightGreen h-24 rounded-tl-md rounded-tr-md uppercase p-3">
+  <div id="footer" class=" relative bg-lightGreen h-24 rounded-tl-md rounded-tr-md uppercase p-3 mt-20">
     <div class=" flex justify-evenly">
 
-      <nuxt-link to="#" class=" ">
+      <nuxt-link to="#" class="">
         accueil
       </nuxt-link>
-      <nuxt-link to="#" class=" ">
+      <nuxt-link to="#" class="">
         droits photos
       </nuxt-link>
-      <nuxt-link to="#" class=" ">
+      <nuxt-link to="#" class="">
         rgpd
       </nuxt-link>
     </div>
