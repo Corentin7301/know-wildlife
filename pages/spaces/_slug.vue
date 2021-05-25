@@ -1,10 +1,6 @@
 <template>
   <div class="relative">
-    <nuxt-link to="/" class="fixed top-5 left-2 lg:left-5 z-10">
-    <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-lightColor opacity-80" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-</svg>
-    </nuxt-link>
+    <return-button />
     <div class=" h-screen bg-darkGreen text-eggWhite font-montserrat">
 
       <!-- 1 -->
@@ -40,7 +36,7 @@
               <i class="fas fa-ruler-combined"></i>
               <div class=" space-y-2">
                 <p class=" text-sm font-normal">Longueur : {{ spaceDatas.width }}</p>
-                <p class=" text-sm font-normal">Hauteur : {{ spaceDatas.height }}</span></p>
+                <p class=" text-sm font-normal">Hauteur : {{ spaceDatas.height }}</p>
               </div>
             </div>
 
@@ -72,7 +68,7 @@
     background-size: cover;
     background-repeat: no-repeat;`">
         <div
-          class=" animatedSquare1 absolute left-8 xl:left-16 bottom-24 bg-whiteTransparent rounded-xl blur shadow-xl space-y-3 xl:space-y-4 px-5 xl:px-10 py-4 xl:py-8">
+          class=" animatedSquare1 absolute left-8 xl:left-16 bottom-24 rounded-xl blur shadow-xl space-y-3 xl:space-y-4 px-5 xl:px-10 py-4 xl:py-8">
           <p class="font-normal xl:text-3xl">Période de rut : {{ spaceDatas.rutPeriod }}</p>
           <p class="font-normal xl:text-3xl">Gestation : {{ spaceDatas.pregnancy }}</p>
           <p class="font-normal xl:text-3xl">Portée : {{ spaceDatas.litter }}</p>
@@ -86,7 +82,7 @@
     background-size: cover;
     background-repeat: no-repeat;`">
         <div
-          class=" animatedSquare2 absolute top-16 right-5 xl:right-28 bg-whiteTransparent text-darkGreen rounded-xl blur shadow-xl xl:space-y-4 px-5 xl:px-10 py-4 xl:py-8">
+          class=" animatedSquare2 absolute top-16 right-5 xl:right-28 text-darkGreen rounded-xl blur shadow-xl xl:space-y-4 px-5 xl:px-10 py-4 xl:py-8">
           <p class="font-normal xl:text-3xl">Traces : {{ spaceDatas.paws }}</p>
           <p class="font-normal xl:text-3xl w-60 xl:w-96">Proies : {{ spaceDatas.preys }}</p>
           <p class="font-normal xl:text-3xl">Prédateurs : {{ spaceDatas.predators }}</p>
@@ -106,7 +102,9 @@
   import {
     ScrollTrigger
   } from "gsap/ScrollTrigger";
+
   export default {
+    layout: 'spaces',
     async asyncData({
       $content,
       params

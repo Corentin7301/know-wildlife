@@ -14,6 +14,11 @@
         "twitterCardImage":"https://res.cloudinary.com/corentin7301/image/upload/v1616753941/nuxt-forestry-template/nuxt-forestry-template_gpfj1c.jpg",
         "mainImage":"https://res.cloudinary.com/corentin7301/image/upload/v1616753941/nuxt-forestry-template/nuxt-forestry-template_gpfj1c.jpg",
         "siteType": "website",
+        "content": {
+            "images": {
+                "newSpaceImg": "https://res.cloudinary.com/corentin7301/image/upload/ar_1:1,b_rgb:373D20,c_fill,g_center,q_auto,r_50/v1/wildlife/bouquetin-accueil_d0gfnr"
+            }
+        },
         "style" : {
             "colors": {
                 "lightGreen": "#717744",

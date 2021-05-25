@@ -1,20 +1,57 @@
 <template>
-  <div id="footer" class=" relative bg-lightGreen h-24 rounded-tl-md rounded-tr-md uppercase p-3 mt-20">
-    <div class=" flex justify-evenly">
 
-      <nuxt-link to="#" class="">
-        accueil
-      </nuxt-link>
-      <nuxt-link to="#" class="">
-        droits photos
-      </nuxt-link>
-      <nuxt-link to="#" class="">
-        rgpd
-      </nuxt-link>
-    </div>
-      <p class=" text-xxs absolute bottom-3 right-3">© Copyright <a href="https://portfolio.corentinperroux.fr" target="_blank"
+  <footer class="bg-backgroundColor dark:bg-gray-800 w-full py-8">
+    <div class="max-w-screen-xl mx-auto px-4 space-y-5">
+      <!-- top -->
+      <ul class="max-w-screen-md mx-auto text-lg font-lightColor flex flex-wrap justify-between">
+        <li class="my-2">
+          <a class=" dark:text-gray-300 dark:hover:text-white" href="/">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 transition lg:hover:opacity-80" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+            </svg>
+          </a>
+        </li>
+        <li class="my-2">
+          <a class=" transition lg:hover:opacity-80 dark:text-gray-300 dark:hover:text-white" href="#">
+            Nouvelle espèce
+          </a>
+        </li>
+        <li class="my-2">
+          <a class=" transition lg:hover:opacity-80 dark:text-gray-300 dark:hover:text-white"
+            href="https://github.com/Corentin7301/know-wildlife">
+            <i class="fab fa-github text-3xl"></i>
+          </a>
+        </li>
+      </ul>
+
+      <!-- bottom -->
+      <ul class="max-w-screen-md mx-auto text-lg font-lightColor opacity-70 flex flex-wrap justify-between">
+        <li class="my-2">
+          <a class=" transition lg:hover:opacity-80 dark:text-gray-300 dark:hover:text-white"
+            href="/credits">
+            Crédits photos
+          </a>
+        </li>
+        <li class="my-2">
+          <a class=" transition lg:hover:opacity-80 dark:text-gray-300 dark:hover:text-white" href="/confidentialite">
+            Politique de confidentialité
+          </a>
+        </li>
+        <li class="my-2">
+          <a class=" transition lg:hover:opacity-80 dark:text-gray-300 dark:hover:text-white" href="mentions">
+            Mentions légales
+          </a>
+        </li>
+      </ul>
+
+      <!-- copyright -->
+      <p class=" text-center text-xs">© Copyright <a href="https://portfolio.corentinperroux.fr" target="_blank"
           class="transition-all hover:opacity-70">CORENTIN PERROUX </a><span>{{ copyrightDate() }}</span></p>
-  </div>
+    </div>
+  </footer>
+
 </template>
 
 <script>

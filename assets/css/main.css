@@ -27,7 +27,7 @@ html {
 
 body {
    /* margin: 0; */
-  @apply bg-backgroundColor;
+  @apply bg-backgroundColor font-quicksand font-medium tracking-widest no-underline text-lightColor;
 }
 
  /* *,

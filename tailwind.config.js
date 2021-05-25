@@ -28,7 +28,6 @@ module.exports = {
     },
     fontFamily: {
       'quicksand': ['Quicksand', 'sans-serif'],
-      'dmMono': ['DM Mono', 'monospace'],
     },
   },
   variants: {
