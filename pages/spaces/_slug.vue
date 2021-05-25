@@ -1,5 +1,10 @@
 <template>
-  <div>
+  <div class="relative">
+    <nuxt-link to="/" class="fixed top-5 left-2 lg:left-5 z-10">
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-lightColor opacity-80" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+</svg>
+    </nuxt-link>
     <div class=" h-screen bg-darkGreen text-eggWhite font-montserrat">
 
       <!-- 1 -->
@@ -10,7 +15,7 @@
         <h1
           class=" specieName absolute top-20 xl:top-36 right-5 xl:right-36 font-medium xl:text-5xl text-4xl uppercase ">
           {{ spaceDatas.name }}</h1>
-            <scroll-to-spaces/>
+        <scroll-to-spaces />
       </div>
 
       <!-- 2 -->
@@ -87,7 +92,7 @@
           <p class="font-normal xl:text-3xl">Prédateurs : {{ spaceDatas.predators }}</p>
         </div>
       </div>
-        <Footer />
+      <Footer />
     </div>
   </div>
 </template>
@@ -95,12 +100,12 @@
 
 
 <script>
-    import {
-      gsap
-    } from "gsap";
-    import {
-      ScrollTrigger
-    } from "gsap/ScrollTrigger";
+  import {
+    gsap
+  } from "gsap";
+  import {
+    ScrollTrigger
+  } from "gsap/ScrollTrigger";
   export default {
     async asyncData({
       $content,
