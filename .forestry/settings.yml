@@ -9,6 +9,8 @@ sections:
   label: Spaces
   create: all
   match: "**/*"
+  templates:
+  - spacesinformations
 - type: document
   path: site.config.json
   label: Configuration
