@@ -21,7 +21,7 @@
         "style" : {
             "colors": {
                 "lightGreen": "#717744",
-                "backgroundColor": "#373D20",
+                "darkGreen": "#373D20",
                 "lightColor": "#F8F4E3"
             }
         }

@@ -16,8 +16,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        backgroundColor: global.style.colors.backgroundColor,
-        footerBackgroundColor: global.style.colors.footerBackgroundColor,
+        darkGreen: global.style.colors.darkGreen,
+        footerdarkGreen: global.style.colors.footerdarkGreen,
         lightColor: global.style.colors.lightColor,
         darkColor: global.style.colors.darkColor,
         lightGreen: global.style.colors.lightGreen,

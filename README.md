@@ -98,9 +98,9 @@ Il apparaîtra dans la **configuration des cards de partage social**.
 
 * #### **style.colors.lightGreen** : Couleur principale du site. EN HEXADECIMAL Exemple : #41b883.
 
-* #### **style.colors.backgroundColor** : Couleur de fond du site. EN HEXADECIMAL Exemple : #606f7b.
+* #### **style.colors.darkGreen** : Couleur de fond du site. EN HEXADECIMAL Exemple : #606f7b.
 
-* #### **style.colors.footerBackgroundColor** : Couleur de fond du footer du site. EN HEXADECIMAL Exemple : #41414141.
+* #### **style.colors.footerdarkGreen** : Couleur de fond du footer du site. EN HEXADECIMAL Exemple : #41414141.
 
 * #### **style.colors.lightColor** : Couleur claire du site. EN HEXADECIMAL Exemple : #eeeeee.
 
@@ -338,9 +338,9 @@ It will appear in the **social share cards configuration**.
 
 * #### **style.colors.lightGreen** : Main site color. EN HEXADECIMAL Example : #41b883.
 
-* #### **style.colors.backgroundColor** : Background site color. EN HEXADECIMAL Example : #606f7b.
+* #### **style.colors.darkGreen** : Background site color. EN HEXADECIMAL Example : #606f7b.
 
-* #### **style.colors.footerBackgroundColor** : Background site footer color. EN HEXADECIMAL Example : #41414141.
+* #### **style.colors.footerdarkGreen** : Background site footer color. EN HEXADECIMAL Example : #41414141.
 
 * #### **style.colors.lightColor** : Light site color. EN HEXADECIMAL Example : #eeeeee.
 
