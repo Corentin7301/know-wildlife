@@ -14,7 +14,7 @@
       </div>
 
 
-      <form method="post" name="new-space" id="contactForm" netlify netlify-honeypot="bot-field"
+      <form method="post" name="new-space" id="contactForm" action="/thanks" netlify netlify-honeypot="bot-field"
         ref="formTag" class="flex flex-col items-center justify-center">
 
         <label class="hidden">Champs anti robots : <input name="bot-field" /></label>
@@ -105,7 +105,7 @@
             method: 'POST',
             body: formData
           });
-          this.$router.push('/thanks');
+          // this.$router.push('/thanks');
         }
       },
       mounted() {
