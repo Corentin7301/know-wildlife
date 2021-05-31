@@ -1,9 +1,5 @@
     {
-<<<<<<< HEAD
-        "siteUrl": "https://portfolio.corentinperroux.fr",
-=======
         "siteUrl": "https://know-wildlife.fr",
->>>>>>> main
         "siteName": "Know-Wildlife",
         "siteSubname": "L'aide mémoire des espèces",
         "contactTitle": "Submission d'espèce",
@@ -11,11 +7,7 @@
         "authorEmail": "corentin7301@gmail.com",
         "copyright": "CORENTIN PERROUX",
         "siteMetaDescription": "Know-Wildlife est le seul site d'aide mémoire des espèces !",
-<<<<<<< HEAD
-        "contactMetaDescription": "CONTACT PAGE of NUXT-FORESTRY-TEMPLATE by Corentin PERROUX",
-=======
         "contactMetaDescription": "Soumets nous une nouvelle espèce !",
->>>>>>> main
         "contactRedirectMessage": "Merci pour ta soumission ! Je te réponds au plus vite !",
         "twitterUrl":"https://twitter.com/CorentinPerroux",
         "twitterAccount":"@CorentinPerroux",
