@@ -1,10 +1,12 @@
-# NUXT FORESTRY TEMPLATE
+# KNOW WILDLIFE
 
 ## Made by [Corentin PERROUX](https://github.com/Corentin7301)
 
+## Site : https://know-wildlife.netlify.app/
+
 ## DEPLOY ON NETLIFY :
 
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/Corentin7301/NUXT-FORESTRY-TEMPLATE"><img src="https://camo.githubusercontent.com/417d890ba67c98ad5856b715343a61cdbf07d72b9bd5b79dd45d43de634c29ea/68747470733a2f2f7777772e6e65746c6966792e636f6d2f696d672f6465706c6f792f627574746f6e2e737667" alt="netlify deploy button"></a>
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/Corentin7301/know-wildlife"><img src="https://camo.githubusercontent.com/417d890ba67c98ad5856b715343a61cdbf07d72b9bd5b79dd45d43de634c29ea/68747470733a2f2f7777772e6e65746c6966792e636f6d2f696d672f6465706c6f792f627574746f6e2e737667" alt="netlify deploy button"></a>
 
 **Si le repository créé est vide utilisez le bouton "Use this template" de Github. Si vous préférez importer le projet sur Forestry, utilisez le buton ci-dessous.**
 
@@ -16,9 +18,9 @@ If the created repository is empty use the "Use this template" button of Github.
 
 If you have already used the "Deploy to Netlify" button and the created repository is not empty, do not use this button.
 
-[![Import this project into Forestry](https://assets.forestry.io/import-to-forestry.svg)](https://app.forestry.io/quick-start?repo=corentin7301/nuxt-forestry-template&engine=other&branch=main)
+[![Import this project into Forestry](https://assets.forestry.io/import-to-forestry.svg)](https://app.forestry.io/quick-start?repo=corentin7301/know-wildlife/&engine=other&branch=main)
 
-## REPO-NAME: https://github.com/Corentin7301/NUXT-FORESTRY-TEMPLATE
+## REPO-NAME: https://github.com/Corentin7301/know-wildlife/
 
 *********
 ## Français :
@@ -30,7 +32,7 @@ If you have already used the "Deploy to Netlify" button and the created reposito
 
 Modifiez les données dans le fichier **/site.config.json** :
 
-* #### **siteUrl** : Nom de domaine du site. Exemple : "https://nuxt-forestry-template.fr"
+* #### **siteUrl** : Nom de domaine du site. Exemple : "https://know-wildlife/.fr"
 
 Il apparaîtra dans la **configuration du feed**, **les metadonnées du site**, **l'url canonique** et la **configuration du sitemap**.
 

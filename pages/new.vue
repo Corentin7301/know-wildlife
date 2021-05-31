@@ -6,6 +6,7 @@
       <h1 class=" title uppercase text-3xl font-medium text-center p-12">know wildlife</h1>
       <scroll-to-spaces />
     </div>
+<<<<<<< HEAD
     <div class="mt-10">
     <h1 class="mb-11 font-bold text-xl text-center">Soumettez-nous une nouvelle espèce !</h1>
     <h2 class="my-5 text-center">Vous ne trouvez pas l'espèce qui vous intéresse ?</h2>
@@ -27,6 +28,38 @@
         <p v-if="this.submitStatus === 'ERROR' && $v.email.$invalid" class=" text-red-300 text-xs">Remplir l'email.</p>
         <label for="content"><textarea name="content" id="formContent" placeholder="Vous avez des informations à propos de l'espèce ?"
             v-model="content" class="inputsContact h-52 w-80 font-quicksand lg:w-1/3"></textarea></label>
+=======
+    <div class="lg:flex lg:justify-around mt-10 h-screen">
+      <div class="flex flex-col items-center justify-center">
+        <h1 class="mb-11 font-bold text-xl text-center">Soumettez-nous une nouvelle espèce !</h1>
+        <h2 class="my-5 text-center">Vous ne trouvez pas l'espèce qui vous intéresse ?</h2>
+        <h2 class="mb-11 text-center">Vous voulez contribuer à faire grandir notre plateforme ?</h2>
+      </div>
+
+
+      <form method="post" name="new-space" id="contactForm" netlify netlify-honeypot="bot-field"
+        ref="formTag" class="flex flex-col items-center justify-center">
+
+        <label class="hidden">Champs anti robots : <input name="bot-field" /></label>
+
+        <label for="spaceName"><input type="text" name="spaceName" id="spaceName" placeholder="Nom commun de l'espèce"
+            v-model="spaceName" class="inputsContact" required></label>
+        <p v-if="this.submitStatus === 'ERROR' && $v.spaceName.$invalid" class=" text-red-300 text-xs">Remplir le nom
+          commun de l'espèce.</p>
+
+        <label for="name"><input type="text" name="name" id="name" placeholder="Votre nom" v-model="name"
+            class="inputsContact" required></label>
+        <p v-if="this.submitStatus === 'ERROR' && $v.email.$invalid" class=" text-red-300 text-xs">Rentrez votre nom.
+        </p>
+
+        <label for="email"><input type="email" name="email" id="email" placeholder="Votre email" v-model="email"
+            class="inputsContact" required></label>
+        <p v-if="this.submitStatus === 'ERROR' && $v.email.$invalid" class=" text-red-300 text-xs">Remplir l'email.</p>
+
+        <label for="content"><textarea name="content" id="formContent"
+            placeholder="Vous avez des informations à propos de l'espèce ?" v-model="content"
+            class="inputsContact h-52 w-80 font-quicksand lg:w-1/3"></textarea></label>
+>>>>>>> main
         <!-- <p v-if="this.submitStatus === 'ERROR' && $v.content.$invalid" class=" text-red-300 text-xs">Remplir le contenu.
         </p> -->
         <!-- <p v-if="$v.email.$invalid" class=" text-red-300 text-xs">Remplir le contenu.</p> -->
@@ -34,8 +67,11 @@
           class=" py-2.5 w-52 mt-5 ml-12 self-start bg-lightGreen text-lightColor transition-all cursor-pointer border-none rounded-md hover:bg-lightColor hover:text-lightGreen">
 
       </form>
+<<<<<<< HEAD
 
       <img :src="this.$global.mainImage" :alt="this.$global.siteName" class=" hidden rounded-xl w-3/5 lg:block">
+=======
+>>>>>>> main
     </div>
   </div>
 </template>
@@ -63,7 +99,11 @@
     data() {
       return {
         name: "",
+<<<<<<< HEAD
         spaceName:"",
+=======
+        spaceName: "",
+>>>>>>> main
         email: "",
         content: "",
         submitStatus: null,
@@ -82,7 +122,10 @@
       },
     },
     methods: {
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
       async sendForm() {
         let formName = this.$refs.formTag.getAttribute('name');
         this.$v.$touch()
@@ -92,12 +135,18 @@
           let formData = new FormData();
           formData.append('name', this.name);
           formData.append('email', this.email);
+<<<<<<< HEAD
           formData.append('spaceName', this.spaceName);
+=======
+          formData.append('content', this.content);
+          formData.append('name-space', this.spaceName);
+>>>>>>> main
           formData.append('form-name', formName);
           let resp = await fetch('/', {
             method: 'POST',
             body: formData
           });
+<<<<<<< HEAD
 
           this.$router.push('thanks');
 
@@ -112,6 +161,20 @@
           duration: 1
         }, "+=0.5")
     },
+=======
+          this.$router.push('/thanks');
+        }
+      },
+      mounted() {
+        let speciesNameAnimation = gsap.timeline()
+        speciesNameAnimation
+          .from(".title", {
+            y: -100,
+            duration: 1
+          }, "+=0.5")
+      },
+    }
+>>>>>>> main
   }
 
 </script>

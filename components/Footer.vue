@@ -1,6 +1,6 @@
 <template>
 
-  <footer class="bg-backgroundColor dark:bg-gray-800 w-full py-8">
+  <footer class="bg-lightGreen dark:bg-gray-800 w-full py-8">
     <div class="max-w-screen-xl mx-auto px-4 space-y-5">
       <!-- top -->
       <ul class="max-w-screen-md mx-auto text-lg font-lightColor flex flex-wrap justify-center">
