@@ -1,18 +1,17 @@
     {
-        "siteUrl": "https://portfolio.corentinperroux.fr",
+        "siteUrl": "https://know-wildlife.fr",
         "siteName": "Know-Wildlife",
         "siteSubname": "L'aide mémoire des espèces",
-        "contactTitle": "CONTACT PAGE of NUXT-FORESTRY-TEMPLATE",
+        "contactTitle": "Submission d'espèce",
         "author": "CORENTIN PERROUX",
         "authorEmail": "corentin7301@gmail.com",
         "copyright": "CORENTIN PERROUX",
         "siteMetaDescription": "Know-Wildlife est le seul site d'aide mémoire des espèces !",
-        "contactMetaDescription": "CONTACT PAGE of NUXT-FORESTRY-TEMPLATE by Corentin PERROUX",
+        "contactMetaDescription": "Soumets nous une nouvelle espèce !",
         "contactRedirectMessage": "Merci pour ta soumission ! Je te réponds au plus vite !",
         "twitterUrl":"https://twitter.com/CorentinPerroux",
         "twitterAccount":"@CorentinPerroux",
-        "twitterCardImage":"https://res.cloudinary.com/corentin7301/image/upload/v1616753941/nuxt-forestry-template/nuxt-forestry-template_gpfj1c.jpg",
-        "mainImage":"https://res.cloudinary.com/corentin7301/image/upload/v1616753941/nuxt-forestry-template/nuxt-forestry-template_gpfj1c.jpg",
+        "twitterCardImage":"https://res.cloudinary.com/corentin7301/image/upload/v1622447954/wildlife/Dent-de-Crolles_29.05.21_s-9_rbv5pz.jpg",
         "siteType": "website",
         "content": {
             "images": {

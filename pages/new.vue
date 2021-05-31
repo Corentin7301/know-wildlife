@@ -84,7 +84,6 @@
       },
     },
     methods: {
-
       async sendForm() {
         let formName = this.$refs.formTag.getAttribute('name');
         this.$v.$touch()
@@ -94,19 +93,16 @@
           let formData = new FormData();
           formData.append('name', this.name);
           formData.append('email', this.email);
-          formData.append('spaceName', this.spaceName);
           formData.append('content', this.content);
-          formData.append('form-name', 'newSpace');
+          formData.append('name-space', this.spaceName);
+          formData.append('form-name', formName);
           let resp = await fetch('/', {
             method: 'POST',
             body: formData
           });
-
           this.$router.push('thanks');
-
         }
       },
-    },
     mounted() {
       let speciesNameAnimation = gsap.timeline()
       speciesNameAnimation
