@@ -8,11 +8,11 @@
     </div>
     <div class="lg:flex lg:justify-around mt-10 h-screen">
       <div class="flex flex-col items-center justify-center">
-      <h1 class="mb-11 font-bold text-xl text-center">Soumettez-nous une nouvelle espèce !</h1>
-      <h2 class="my-5 text-center">Vous ne trouvez pas l'espèce qui vous intéresse ?</h2>
-      <h2 class="mb-11 text-center">Vous voulez contribuer à faire grandir notre plateforme ?</h2>
+        <h1 class="mb-11 font-bold text-xl text-center">Soumettez-nous une nouvelle espèce !</h1>
+        <h2 class="my-5 text-center">Vous ne trouvez pas l'espèce qui vous intéresse ?</h2>
+        <h2 class="mb-11 text-center">Vous voulez contribuer à faire grandir notre plateforme ?</h2>
       </div>
-    
+
 
       <form method="post" name="contact" action="/thanks.html" id="contactForm" netlify netlify-honeypot="bot-field"
         ref="formTag" class="flex flex-col items-center justify-center">
@@ -103,14 +103,15 @@
           this.$router.push('thanks');
         }
       },
-    mounted() {
-      let speciesNameAnimation = gsap.timeline()
-      speciesNameAnimation
-        .from(".title", {
-          y: -100,
-          duration: 1
-        }, "+=0.5")
-    },
+      mounted() {
+        let speciesNameAnimation = gsap.timeline()
+        speciesNameAnimation
+          .from(".title", {
+            y: -100,
+            duration: 1
+          }, "+=0.5")
+      },
+    }
   }
 
 </script>
