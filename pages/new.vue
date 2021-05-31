@@ -97,9 +97,9 @@
         } else {
           let formData = new FormData();
           formData.append('name', this.name);
-          formData.append('email', this.email);
-          formData.append('content', this.content);
-          formData.append('name-space', this.spaceName);
+          // formData.append('email', this.email);
+          // formData.append('content', this.content);
+          // formData.append('name-space', this.spaceName);
           formData.append('form-name', formName);
           let resp = await fetch('/', {
             method: 'POST',
