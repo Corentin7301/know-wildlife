@@ -195,21 +195,24 @@ export default {
         $content
       } = require('@nuxt/content')
 
-      // const content = await $content('content').only(['path', 'createdAt']).fetch()
-      // const dynamicArticles = content.map((content) => {
-      //   return {
-      //     url: content.path,
-      //     priority: 1,
-      //     lastmod: content.createdAt
-      //   }
-      // })
+      const spaces = await $content('spaces').only(['path', 'createdAt']).fetch()
+      const dynamicSpaces = spaces.map((spaces) => {
+        return {
+          url: spaces.path,
+          priority: 1,
+          lastmod: spaces.createdAt
+        }
+      })
       // ADD STATIC PAGES IN SITEMAP HERE
       const staticPages = [
-        "/contact",
+        "/",
+        "/new",
+        "/thanks",
+        "/legal/mentions",
+        "/legal/credits",
         // ...
       ]
-      return [...staticPages]
-      // return [...dynamicArticles, ...staticPages]
+      return [...dynamicSpaces, ...staticPages]
     },
   },
 
