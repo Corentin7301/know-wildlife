@@ -96,7 +96,7 @@
           formData.append('email', this.email);
           formData.append('spaceName', this.spaceName);
           formData.append('content', this.content);
-          formData.append('form-name', newSpace);
+          formData.append('form-name', 'newSpace');
           let resp = await fetch('/', {
             method: 'POST',
             body: formData
