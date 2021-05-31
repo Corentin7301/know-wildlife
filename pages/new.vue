@@ -14,20 +14,25 @@
       </div>
 
 
-      <form method="post" name="contact" action="/thanks.html" id="contactForm" netlify netlify-honeypot="bot-field"
+      <form method="post" name="new-space" action="/thanks.html" id="contactForm" netlify netlify-honeypot="bot-field"
         ref="formTag" class="flex flex-col items-center justify-center">
+
         <label class="hidden">Champs anti robots : <input name="bot-field" /></label>
+
         <label for="spaceName"><input type="text" name="spaceName" id="spaceName" placeholder="Nom commun de l'espèce"
             v-model="spaceName" class="inputsContact" required></label>
         <p v-if="this.submitStatus === 'ERROR' && $v.spaceName.$invalid" class=" text-red-300 text-xs">Remplir le nom
           commun de l'espèce.</p>
+
         <label for="name"><input type="text" name="name" id="name" placeholder="Votre nom" v-model="name"
             class="inputsContact" required></label>
         <p v-if="this.submitStatus === 'ERROR' && $v.email.$invalid" class=" text-red-300 text-xs">Rentrez votre nom.
         </p>
+
         <label for="email"><input type="email" name="email" id="email" placeholder="Votre email" v-model="email"
             class="inputsContact" required></label>
         <p v-if="this.submitStatus === 'ERROR' && $v.email.$invalid" class=" text-red-300 text-xs">Remplir l'email.</p>
+
         <label for="content"><textarea name="content" id="formContent"
             placeholder="Vous avez des informations à propos de l'espèce ?" v-model="content"
             class="inputsContact h-52 w-80 font-quicksand lg:w-1/3"></textarea></label>
@@ -100,7 +105,7 @@
             method: 'POST',
             body: formData
           });
-          this.$router.push('thanks');
+          this.$router.push('/thanks');
         }
       },
       mounted() {
