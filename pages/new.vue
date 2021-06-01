@@ -105,7 +105,7 @@
             method: 'POST',
             body: formData
           });
-          // this.$router.push('/thanks');
+          this.$router.push('/thanks');
         }
       },
       mounted() {
