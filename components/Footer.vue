@@ -5,7 +5,6 @@
       <!-- top -->
       <ul class="max-w-screen-md mx-auto text-lg font-lightColor flex flex-wrap justify-center">
         <!-- spacer -->
-        <li class="w-6"></li>
         <li class="my-2">
           <a class=" dark:text-gray-300 dark:hover:text-white" href="/">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 transition lg:hover:opacity-80" fill="none"
