@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "@nuxtjs/google-analytics": "^2.4.0",
+    "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/tailwindcss": "^4.1.1",
     "node-sass": "^6.0.0",
     "postcss": "^8.2.15",

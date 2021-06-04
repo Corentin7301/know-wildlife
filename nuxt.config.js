@@ -123,6 +123,8 @@ export default {
   buildModules: [
     '@nuxtjs/google-analytics',
     '@nuxtjs/tailwindcss',
+    // if in srr: true and nuxt generate else -> Modules
+    '@nuxtjs/pwa',
   ],
 
   googleAnalytics: {
@@ -131,6 +133,29 @@ export default {
   publicRuntimeConfig: {
     googleAnalytics: {
       id: process.env.GOOGLE_ANALYTICS_ID
+    },
+  },
+
+  pwa: {
+    icon: {
+
+    },
+    meta: {
+      themeColor: '#373D20',
+      name:'Know-Wildlife',
+      author: 'Corentin PERROUX',
+      description: 'Know-Wildlife est le seul site d\'aide mémoire des espèces !',
+      lang: 'fr',
+
+    },
+    manifest: {
+      name: 'Know-Wildlife',
+      shortname: 'K-Wild',
+      description: 'Know-Wildlife est le seul site d\'aide mémoire des espèces !',
+      lang: 'fr',
+    },
+    workbox: {
+
     },
   },
 
