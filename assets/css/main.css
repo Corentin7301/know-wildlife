@@ -10,13 +10,13 @@ html {
   list-style-type: none;
 }
 ::selection {
-  color: gray;
-  background-color: rgb(54, 54, 54);
+  color: #717744;
+  background-color: #373D20;
 }
 
 ::-moz-selection {
-  color: gray;
-  background-color: rgb(54, 54, 54);
+  color: #717744;
+  background-color: #373D20;
 }
 
 
