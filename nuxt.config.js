@@ -141,7 +141,7 @@ export default {
 
     },
     meta: {
-      themeColor: '#373D20',
+      theme_color: '#373D20',
       name:'Know-Wildlife',
       author: 'Corentin PERROUX',
       description: 'Know-Wildlife est le seul site d\'aide mémoire des espèces !',
