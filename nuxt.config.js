@@ -92,6 +92,7 @@ export default {
         rel: 'icon',
         type: 'image/x-icon',
         // CHANGE FAVICON NAME HERE
+        // href: '/favicon.png'
         href: '/favicon.png'
       },
       {
@@ -110,7 +111,7 @@ export default {
       },
     ]
   },
-  css: ['~/assets/css/main.css', '~/assets/css/colors.css', '~/assets/css/utility.css', '~/assets/css/scrollbar.css', '~/assets/css/transition.css', '~/assets/css/tailwind.css'],
+  css: ['~/assets/css/main.css', '~/assets/css/scrollbar.css', '~/assets/css/transition.css', '~/assets/css/tailwind.css'],
   plugins: [{
       src: '@/plugins/variables.js'
     },
