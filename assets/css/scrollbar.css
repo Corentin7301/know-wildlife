@@ -5,19 +5,19 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px gray;
+  box-shadow: inset 0 0 5px #373D20;
   border-radius: 10px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(75, 75, 75);
+  background: #717744;
   border-radius: 10px;
 }
 
 .scroll-color-colors {
   /*Firefox */
-  scrollbar-color: rgb(75, 75, 75) rgb(204, 204, 204);
+  scrollbar-color:#717744  rgb(204, 204, 204);
 }
 
 .scroll-width-thin {
