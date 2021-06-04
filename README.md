@@ -44,7 +44,7 @@ Il apparaîtra dans les **metadonnées du site et de la page index** et la **bal
 
 Il apparaîtra dans le **h2 du header**.
 
-* #### **contactTitle** : Nom de la page contact. Exemple : "CONTACT of NUXT-FORESTRY-TEMPLATE"
+* #### **newSubmissionTitle** : Nom de la page contact. Exemple : "CONTACT of NUXT-FORESTRY-TEMPLATE"
 
 Il apparaîtra dans les **metadonnées de la page contact**.
 
@@ -65,11 +65,11 @@ Il apparaîtra dans le **copyright**.
 Il apparaîtra dans les **metadonnées du site** et de **la page index**.
 
 
-* #### **contactMetaDescription** : Metadescription de la page contact. Exemple : "CONTACT of NUXT-FORESTRY-TEMPLATE by Corentin PERROUX"
+* #### **newSubmissionMetaDescription** : Metadescription de la page contact. Exemple : "CONTACT of NUXT-FORESTRY-TEMPLATE by Corentin PERROUX"
 
 Il apparaîtra dans **la page contact**.
 
-* #### **contactRedirectMessage** : Message de la page de remerciement lors de la soumission du formulaire. Exemple : "Merci pour votre message ! Nous vous répondrons dès que possible."
+* #### **newSubmissionRedirectMessage** : Message de la page de remerciement lors de la soumission du formulaire. Exemple : "Merci pour votre message ! Nous vous répondrons dès que possible."
 
 Il apparaîtra dans **la page thanks**.
 
@@ -284,7 +284,7 @@ It will appear in the **Site and index metadatas** and the **alt tag of page "co
 * #### **siteTitle** : Site subtitle. Example : "NUXT-FORESTRY-TEMPLATE"
 
 It will appear in the **header h2**.
-* #### **contactTitle** : Contact page name. Example : "CONTACT of NUXT-FORESTRY-TEMPLATE"
+* #### **newSubmissionTitle** : Contact page name. Example : "CONTACT of NUXT-FORESTRY-TEMPLATE"
 
 It will appear in the **contact page metadatas (_page.vue)**.
 
@@ -304,11 +304,11 @@ It will appear in the **copyright**.
 
 It will appear in the **site metadatas** and the **index page**.
 
-* #### **contactMetaDescription** : Contact page meta-description. Example : "CONTACT of NUXT-FORESTRY-TEMPLATE by Corentin PERROUX"
+* #### **newSubmissionMetaDescription** : Contact page meta-description. Example : "CONTACT of NUXT-FORESTRY-TEMPLATE by Corentin PERROUX"
 
 It will appear in **contact page**.
 
-* #### **contactRedirectMessage** : Thank you page message when submitting the form. Example : "Thank you for your message ! We will answer you as soon as possible."
+* #### **newSubmissionRedirectMessage** : Thank you page message when submitting the form. Example : "Thank you for your message ! We will answer you as soon as possible."
 
 It will appear in **thanks page**.
 

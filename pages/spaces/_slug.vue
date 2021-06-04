@@ -105,6 +105,17 @@
 
   export default {
     layout: 'spaces',
+    name: "spaces",
+    head() {
+      return {
+        title: this.spaceDatas.name,
+        meta: [{
+          hid: 'description',
+          name: 'description',
+          content: this.spaceDatas.name
+        }],
+      }
+    },
     async asyncData({
       $content,
       params

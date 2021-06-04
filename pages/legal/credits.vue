@@ -9,3 +9,20 @@
     </ul>
   </div>
 </template>
+
+
+<script>
+export default {
+  name: "credits-photos",
+    head() {
+      return {
+        title: this.$global.creditsTitle,
+        meta: [{
+          hid: 'description',
+          name: 'description',
+          content: this.$global.creditsMetaDescription
+        }],
+      }
+    },
+}
+</script>

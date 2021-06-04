@@ -1,23 +1,37 @@
     {
         "siteUrl": "https://know-wildlife.fr",
         "siteName": "Know-Wildlife",
-        "siteSubname": "L'aide mémoire des espèces",
-        "contactTitle": "Soumission d'espèce",
-        "author": "CORENTIN PERROUX",
-        "authorEmail": "corentin7301@gmail.com",
-        "copyright": "CORENTIN PERROUX",
-        "siteMetaDescription": "Know-Wildlife est le seul site d'aide mémoire des espèces !",
-        "contactMetaDescription": "Soumets nous une nouvelle espèce !",
-        "contactRedirectMessage": "Merci pour ta soumission ! Je te réponds au plus vite !",
+        "siteSubname": "L'aide mémoire des espèces sauvages",
+        "siteMetaDescription": "Know-Wildlife est le seul site d'aide mémoire des espèces sauvages !",
+
+        "newSubmissionTitle": "Soumission d'espèce",
+        "newSubmissionMetaDescription": "Soumets nous une nouvelle espèce !",
+        "newSubmissionRedirectMessage": "Merci pour ta soumission ! Je te réponds au plus vite !",
+        
+        "thanksSubmissionTitle": "Merci !",
+        "thanksSubmissionMetaDescription": "Merci pour ta soumission !",
+
+        "creditsTitle": "Crédits photos",
+        "creditsMetaDescription": "Crédits photographiques des images présentes sur le site.",
+        
+        "mentionsTitle": "Mentions Légales",
+        "mentionsMetaDescription": "Mentions légales du site.",
+
         "twitterUrl":"https://twitter.com/CorentinPerroux",
         "twitterAccount":"@CorentinPerroux",
         "twitterCardImage":"https://res.cloudinary.com/corentin7301/image/upload/v1622447954/wildlife/Dent-de-Crolles_29.05.21_s-9_rbv5pz.jpg",
+
+        "author": "CORENTIN PERROUX",
+        "authorEmail": "corentin7301@gmail.com",
+        "copyright": "CORENTIN PERROUX",
+
         "siteType": "website",
         "content": {
             "images": {
                 "newSpaceImg": "https://res.cloudinary.com/corentin7301/image/upload/ar_1:1,b_rgb:373D20,c_fill,g_center,q_auto,r_50/v1/wildlife/bouquetin-accueil_d0gfnr"
             }
         },
+
         "style" : {
             "colors": {
                 "lightGreen": "#717744",

@@ -59,11 +59,11 @@
     name: "newSpaceSubmission",
     head() {
       return {
-        title: this.$global.contactTitle,
+        title: this.$global.newSubmissionTitle,
         meta: [{
           hid: 'description',
           name: 'description',
-          content: this.$global.contactMetaDescription
+          content: this.$global.newSubmissionMetaDescription
         }],
       }
     },

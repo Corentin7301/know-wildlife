@@ -156,6 +156,22 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: "mentions-legales",
+    head() {
+      return {
+        title: this.$global.mentionsTitle,
+        meta: [{
+          hid: 'description',
+          name: 'description',
+          content: this.$global.mentionsMetaDescription
+        }],
+      }
+    },
+}
+</script>
+
 
 <style scoped>
   h1 {
