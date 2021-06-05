@@ -15,9 +15,9 @@ territory: 30-150  ha
 statusOfProtection: Préoccupation mineure
 rutPeriod: Février-mars
 pregnancy: 50 jours
-litter: 
+litter: 1-5 petits
 weaning: 3 mois
-paws: 
+paws: 5 cm long, 4 cm large
 preys: Homnivore (campagnols, taupes, végétaux, fruits et fruits secs, racines et
   tubercules, ...)
 predators: Renard, lynx, Aigle, Grand-Duc, loup, chien, Homme
