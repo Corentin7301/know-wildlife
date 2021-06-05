@@ -32,7 +32,7 @@
     async asyncData({
       $content,
     }) {
-      const spaces = await $content('spaces').fetch()
+      const spaces = await $content('spaces').sortBy('slug').fetch()
       return {
         spaces
       }
