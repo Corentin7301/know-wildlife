@@ -1,5 +1,5 @@
 <template>
-  <div class=" h-screen indexBackground p-12">
+  <div class="h-screen indexBackground p-12">
     <h1 class=" title uppercase text-3xl font-medium text-center">know wildlife</h1>
     <scroll-to-spaces/>
   </div>

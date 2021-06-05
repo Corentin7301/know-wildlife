@@ -92,8 +92,7 @@ export default {
         rel: 'icon',
         type: 'image/x-icon',
         // CHANGE FAVICON NAME HERE
-        // href: '/favicon.png'
-        href: '/favicon.png'
+        href: '/icon.png'
       },
       {
         hid: "canonical",
