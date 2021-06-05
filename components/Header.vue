@@ -1,7 +1,10 @@
 <template>
-  <div class=" h-screen indexBackground p-12">
+  <div class=" h-screen p-12"
+    :style="`background: linear-gradient(179.94deg, rgba(196, 196, 196, 0) 70.79%, #373D20 99.95%), url('${imgIndexUrl}');background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;`">
     <h1 class=" title uppercase text-3xl font-medium text-center">know wildlife</h1>
-    <scroll-to-spaces/>
+    <scroll-to-spaces />
   </div>
 </template>
 
@@ -9,9 +12,24 @@
   import {
     gsap
   } from "gsap";
+  import imgIndex from "~/imagesIndex.config.json";
   export default {
+    data() {
+      return {
+        imgIndexUrl: "",
+        imgIndexPosition: "",
+      }
+    },
 
-mounted() {
+    mounted() {
+      debugger
+      let randomUrl = imgIndex[Math.floor(Math.random() * imgIndex.length)];
+      this.imgIndexUrl = randomUrl.imgUrl
+      this.imgIndexPosition = randomUrl.position
+      debugger
+
+
+
       let speciesNameAnimation = gsap.timeline()
       speciesNameAnimation
         .from(".title", {
@@ -22,13 +40,3 @@ mounted() {
   }
 
 </script>
-
-<style>
-  .indexBackground {
-    background: linear-gradient(179.94deg, rgba(196, 196, 196, 0) 70.79%, #373D20 99.95%), url("https://res.cloudinary.com/corentin7301/image/upload/q_auto/c_scale/fl_lossy/v1619880326/wildlife/bouquetin-accueil_d0gfnr");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right;
-  }
-
-</style>
