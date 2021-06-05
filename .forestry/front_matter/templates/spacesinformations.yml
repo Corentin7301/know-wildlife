@@ -50,14 +50,18 @@ fields:
 - type: text
   name: pregnancy
   label: pregnancy
-- type: datetime
-  name: litter
+- name: litter
+  type: text
+  config:
+    required: false
   label: litter
 - type: text
   name: weaning
   label: weaning
-- type: datetime
-  name: paws
+- name: paws
+  type: text
+  config:
+    required: false
   label: paws
 - type: text
   name: preys
