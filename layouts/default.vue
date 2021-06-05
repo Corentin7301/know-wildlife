@@ -1,6 +1,5 @@
 <template>
   <div id="layout">
-        <install-headband/>
     <Nuxt />
     <Footer />
         <scroll-to-top>

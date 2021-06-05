@@ -1,6 +1,7 @@
 <template>
   <div>
     <Header />
+    <install-headband/>
     <div class="grid grid-cols-2 lg:grid-cols-3 gap-x-5 lg:gap-x-8 gap-y-6 py-11 px-2 lg:px-16">
       <nuxt-link :to=" { name: 'spaces-slug', params: { slug: space.slug }} " class=" relative flex justify-center"
         v-for="space of spaces" :key="space.name">
