@@ -9,7 +9,7 @@
     background-size: cover;
     background-repeat: no-repeat;`">
         <h1
-          class=" specieName absolute top-20 xl:top-36 right-5 xl:right-36 font-medium xl:text-5xl text-4xl uppercase ">
+          class=" specieName absolute top-20 xl:top-36 right-5 xl:right-36 font-medium xl:text-5xl text-4xl uppercase text-right">
           {{ spaceDatas.name }}</h1>
         <scroll-to-spaces />
       </div>
