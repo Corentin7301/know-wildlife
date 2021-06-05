@@ -6,7 +6,7 @@
       <h1 class=" title uppercase text-3xl font-medium text-center p-12">know wildlife</h1>
       <scroll-to-spaces />
     </div>
-    <div class="lg:flex lg:justify-around mt-10 h-screen">
+    <div class="lg:flex lg:justify-around mt-10 pb-5 px-2 min-h-screen">
       <div class="flex flex-col items-center justify-center">
         <h1 class="mb-11 font-bold text-xl text-center">Soumettez-nous une nouvelle espèce !</h1>
         <h2 class="my-5 text-center">Vous ne trouvez pas l'espèce qui vous intéresse ?</h2>
