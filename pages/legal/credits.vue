@@ -40,7 +40,7 @@ export default {
 }
 
 .nuxt-content ul {
-  @apply space-y-2;
+  @apply text-lg space-y-2;
 }
 
 
