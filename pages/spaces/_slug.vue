@@ -4,7 +4,7 @@
     <div class=" h-screen bg-darkGreen text-eggWhite font-montserrat">
 
       <!-- 1 -->
-      <div class=" frame relative h-screen flex justify-center" :style="`background: linear-gradient(179.94deg, rgba(196, 196, 196, 0) 70.79%, #373D20 99.95%), url(${spaceDatas.firstImageUrlFull});
+      <div class=" frame relative h-screen flex justify-center" :style="`background: linear-gradient(179.94deg, rgba(196, 196, 196, 0) 70.79%, #373D20 99.95%), url(${spaceDatas.firstImageUrl});
         background-position: center;
     background-size: cover;
     background-repeat: no-repeat;`">
@@ -63,7 +63,7 @@
       </div>
 
       <!-- 3 -->
-      <div class=" frame relative h-screen" :style="`background: linear-gradient(180deg, #373D20 0%, rgba(55, 61, 32, 0) 9.43%, rgba(55, 61, 32, 0) 87.14%, #373D20 100%), url(${spaceDatas.secondImageUrlFull});
+      <div class=" frame relative h-screen" :style="`background: linear-gradient(180deg, #373D20 0%, rgba(55, 61, 32, 0) 9.43%, rgba(55, 61, 32, 0) 87.14%, #373D20 100%), url(${spaceDatas.secondImageUrl});
         background-position: center;
     background-size: cover;
     background-repeat: no-repeat;`">
@@ -77,7 +77,7 @@
       </div>
 
       <!-- 4 -->
-      <div class=" frame relative h-screen" :style="`background: linear-gradient(180deg, rgba(55, 61, 32, 0.31) 0%, rgba(55, 61, 32, 0) 12.66%, rgba(55, 61, 32, 0) 83.28%, rgba(55, 61, 32, 0.27) 100%), url(${spaceDatas.thirdImageUrlFull});
+      <div class=" frame relative h-screen" :style="`background: linear-gradient(180deg, rgba(55, 61, 32, 0.31) 0%, rgba(55, 61, 32, 0) 12.66%, rgba(55, 61, 32, 0) 83.28%, rgba(55, 61, 32, 0.27) 100%), url(${spaceDatas.thirdImageUrl});
         background-position: center;
     background-size: cover;
     background-repeat: no-repeat;`">
