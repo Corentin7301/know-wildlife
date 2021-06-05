@@ -8,27 +8,12 @@ fields:
 - type: text
   name: firstImageUrl
   label: firstImageUrl
-- name: firstimageurlfull
-  type: text
-  config:
-    required: false
-  label: firstImageUrlFull
 - type: text
   name: secondImageUrl
   label: secondImageUrl
-- name: secondimageurlfull
-  type: text
-  config:
-    required: false
-  label: secondImageUrlFull
 - type: text
   name: thirdImageUrl
   label: thirdImageUrl
-- name: thirdimageurlfull
-  type: text
-  config:
-    required: false
-  label: thirdImageUrlFull
 - type: text
   name: name
   label: name
