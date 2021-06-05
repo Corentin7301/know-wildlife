@@ -5,6 +5,11 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: content/legal
+  label: Legal
+  create: all
+  match: "**/*"
+- type: directory
   path: content/spaces
   label: Spaces
   create: all
