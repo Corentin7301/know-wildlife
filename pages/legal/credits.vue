@@ -1,5 +1,5 @@
 <template>
-  <div class="relative py-20 px-5 h-screen">
+  <div class="relative py-20 px-5 min-h-screen">
     <return-button />
     <nuxt-content :document="credits"/>
   </div>
@@ -32,11 +32,15 @@ export default {
 
 <style>
 .nuxt-content h1 {
-  @apply text-2xl mb-8;
+  @apply text-3xl font-bold mb-8;
 }
 
 .nuxt-content h2 {
-  @apply text-xl mb-8;
+  @apply text-2xl font-bold mb-8;
+}
+
+.nuxt-content h3 {
+  @apply text-xl mt-8 mb-3;
 }
 
 .nuxt-content ul {
