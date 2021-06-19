@@ -82,7 +82,7 @@
     background-size: cover;
     background-repeat: no-repeat;`">
         <div
-          class=" animatedSquare2 absolute top-16 right-5 xl:right-28 text-darkGreen rounded-xl blur shadow-xl xl:space-y-4 px-5 xl:px-10 py-4 xl:py-8">
+          class=" animatedSquare2 absolute top-16 right-5 xl:right-28 rounded-xl blur shadow-xl xl:space-y-4 px-5 xl:px-10 py-4 xl:py-8">
           <p class="font-normal xl:text-3xl">Traces : {{ spaceDatas.paws }}</p>
           <p class="font-normal xl:text-3xl w-60 xl:w-96">Proies : {{ spaceDatas.preys }}</p>
           <p class="font-normal xl:text-3xl">Prédateurs : {{ spaceDatas.predators }}</p>
@@ -192,8 +192,9 @@
 
 <style scoped>
   .blur {
+    background: rgba(55, 61, 32, 0.2);
     backdrop-filter: blur(20px);
-    box-shadow: inset -3px -3px 24px -2px rgba(0, 0, 0, 0.25);
+    box-shadow: 9px 12px 13px -7px rgba(0, 0, 0, 0.15);
   }
 
   .frame {
