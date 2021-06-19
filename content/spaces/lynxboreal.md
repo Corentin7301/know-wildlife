@@ -1,11 +1,11 @@
 ---
-miniatureUrl: lynxboreal/lynx-label_wzeuem
-firstImageUrl: https://res.cloudinary.com/corentin7301/image/upload/q_auto/c_scale/fl_lossy/v1621438048/wildlife/lynxboreal/lynx-boreal-2_raeyhs.jpg
-secondImageUrl: https://res.cloudinary.com/corentin7301/image/upload/q_auto/c_scale/fl_lossy/v1621438040/wildlife/lynxboreal/baby-lynx-1_cpck5x.jpg
-thirdImageUrl: https://res.cloudinary.com/corentin7301/image/upload/q_auto/c_scale/fl_lossy/v1621438055/wildlife/lynxboreal/piste-lynx-1_o99rh1.jpg
+miniatureUrl: lynxboreal/lynx-min_gzbfdr
+firstImageUrl: https://res.cloudinary.com/corentin7301/image/upload/f_auto/q_auto/c_scale/fl_lossy/v1624096394/wildlife/lynxboreal/lynx-1_eps4bs
+secondImageUrl: https://res.cloudinary.com/corentin7301/image/upload/f_auto/q_auto/c_scale/fl_lossy/v1624096394/wildlife/lynxboreal/lynx-2_eekuaw
+thirdImageUrl: https://res.cloudinary.com/corentin7301/image/upload/f_auto/q_auto/c_scale/fl_lossy/v1624096394/wildlife/lynxboreal/lynx-3_hsqdjc
 name: Lynx Boreal
 scientificName: lynx lynx
-mapUrl: lynxboreal/lynx-map-2_m6kkg2
+mapUrl: lynxboreal/map-lynx_qx9f9g
 maleWeight: 20 kg
 femaleWeight: 17 kg
 width: 80-130 cm

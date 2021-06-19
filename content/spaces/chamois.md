@@ -1,11 +1,11 @@
 ---
-miniatureUrl: ''
-firstImageUrl: ''
-secondImageUrl: ''
-thirdImageUrl: ''
+miniatureUrl: chamois/chamois-min_qkrh3z
+firstImageUrl: https://res.cloudinary.com/corentin7301/image/upload/f_auto/q_auto/c_scale/fl_lossy/v1624096843/wildlife/chamois/chamois-1_riihxr
+secondImageUrl: https://res.cloudinary.com/corentin7301/image/upload/f_auto/q_auto/c_scale/fl_lossy/v1624096843/wildlife/chamois/chamois-2_uoh72e
+thirdImageUrl: https://res.cloudinary.com/corentin7301/image/upload/f_auto/q_auto/c_scale/fl_lossy/v1624096843/wildlife/chamois/chamois-3_xceh1c
 name: Chamois
 scientificName: rupicapra rupicapra
-mapUrl: chamois/map-chamois_f53hjk
+mapUrl: chamois/map-chamois_pbmxev
 maleWeight: 25-50 kg
 femaleWeight: 25-50 kg
 width: 120 cm

@@ -1,11 +1,11 @@
 ---
-miniatureUrl: ''
-firstImageUrl: ''
-secondImageUrl: ''
-thirdImageUrl: ''
+miniatureUrl: renardroux/renard-min_pg8552
+firstImageUrl: https://res.cloudinary.com/corentin7301/image/upload/f_auto/q_auto/c_scale/fl_lossy/v1624098121/wildlife/renardroux/renard-1_lmjfxd
+secondImageUrl: https://res.cloudinary.com/corentin7301/image/upload/f_auto/q_auto/c_scale/fl_lossy/v1624098122/wildlife/renardroux/renard-2_y2umps
+thirdImageUrl: https://res.cloudinary.com/corentin7301/image/upload/f_auto/q_auto/c_scale/fl_lossy/v1624098122/wildlife/renardroux/renard-3_slryzi
 name: Renard roux
 scientificName: vulpes vulpes
-mapUrl: renardroux/map-renard_akugsb
+mapUrl: renardroux/map-renard_eto9zw
 maleWeight: 6-12 kg
 femaleWeight: 6-12 kg
 width: 90-120 cm
