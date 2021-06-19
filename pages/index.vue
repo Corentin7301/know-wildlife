@@ -8,7 +8,7 @@
         <cld-image :public-id="`/wildlife/${space.miniatureUrl}`" quality="auto" aspectRatio="1:1" crop="fill"
           gravity="center" radius="50" background="#373D20" loading="lazy"
           class=" w-1:2 cursor-pointer transition lg:hover:transform lg:hover:scale-105" />
-        <h2 class="absolute bottom-3 uppercase font-bold text-sm text-eggWhite">{{ space.name }}</h2>
+        <h2 class="absolute bottom-3 uppercase font-bold text-sm text-eggWhite text-center px-1">{{ space.name }}</h2>
       </nuxt-link>
       <new-space-card />
     </div>
