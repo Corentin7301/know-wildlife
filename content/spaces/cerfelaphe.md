@@ -1,11 +1,11 @@
 ---
-miniatureUrl: ''
-firstImageUrl: ''
-secondImageUrl: ''
-thirdImageUrl: ''
+miniatureUrl: cerfelaphe/cerf-min_ro2hxo
+firstImageUrl: https://res.cloudinary.com/corentin7301/image/upload/f_auto/q_auto/c_scale/fl_lossy/v1624098579/wildlife/cerfelaphe/cerf-1_eytxce
+secondImageUrl: https://res.cloudinary.com/corentin7301/image/upload/f_auto/q_auto/c_scale/fl_lossy/v1624098579/wildlife/cerfelaphe/cerf-2_hnc8ei
+thirdImageUrl: https://res.cloudinary.com/corentin7301/image/upload/f_auto/q_auto/c_scale/fl_lossy/v1624098579/wildlife/cerfelaphe/cerf-3_ev4dap
 name: Cerf élaphe
 scientificName: cervus elaphus
-mapUrl: cerfelaphe/map-cerf_atmaik
+mapUrl: cerfelaphe/map-cerf_z1p8pf
 maleWeight: 120-125 kg
 femaleWeight: 67-100 kg
 width: 160-260 cm
