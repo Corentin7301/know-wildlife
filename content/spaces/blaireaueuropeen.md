@@ -1,5 +1,5 @@
 ---
-miniatureUrl: https://res.cloudinary.com/corentin7301/image/upload/f_auto/q_auto/c_scale/fl_lossy/v1624095647/wildlife/blaireaueuropeen/blaireau-min_rt6tn0
+miniatureUrl: blaireaueuropeen/blaireau-min_rt6tn0
 firstImageUrl: https://res.cloudinary.com/corentin7301/image/upload/f_auto/q_auto/c_scale/fl_lossy/v1624095647/wildlife/blaireaueuropeen/blaireau-1_e98mpg
 secondImageUrl: https://res.cloudinary.com/corentin7301/image/upload/f_auto/q_auto/c_scale/fl_lossy/v1624095647/wildlife/blaireaueuropeen/blaireau-2_pirfu6
 thirdImageUrl: https://res.cloudinary.com/corentin7301/image/upload/f_auto/q_auto/c_scale/fl_lossy/v1624095647/wildlife/blaireaueuropeen/blaireau-3_acgbcu
