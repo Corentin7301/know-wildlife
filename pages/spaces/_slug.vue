@@ -152,7 +152,7 @@
               pin: e,
               scrub: 0.5,
               start: "top top",
-              end: "+=50%",
+              end: "+=15%",
               // markers:true
             }
           })
