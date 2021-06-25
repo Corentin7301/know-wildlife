@@ -19,6 +19,6 @@ litter: 1-2 petits
 weaning: 6 mois
 paws: 7-10 cm long, 5 cm large
 preys: Végétaux
-predators: Aigle, Homme
+predators: Aigle, Loup, Homme
 
 ---
