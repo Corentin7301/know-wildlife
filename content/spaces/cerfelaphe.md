@@ -6,8 +6,8 @@ thirdImageUrl: https://res.cloudinary.com/corentin7301/image/upload/f_auto/q_aut
 name: Cerf élaphe
 scientificName: cervus elaphus
 mapUrl: cerfelaphe/map-cerf_z1p8pf
-maleWeight: 120-125 kg
-femaleWeight: 67-100 kg
+maleWeight: 120-220 kg
+femaleWeight: 67-120 kg
 width: 160-260 cm
 height: 110-180 cm
 age: 13-15 ans
