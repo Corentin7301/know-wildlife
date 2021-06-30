@@ -15,7 +15,7 @@
       </div>
 
       <!-- 2 -->
-      <div class=" frame bg-darkGreen h-screen pt-14">
+      <div class=" frame bg-darkGreen min-h-screen pt-14">
         <h2 class=" scientificName uppercase text-center font-medium text-4xl">{{ spaceDatas.scientificName }}</h2>
         <h3 class=" uppercase text-center mt-14">repartition</h3>
         <div class=" xl:flex items-center justify-center xl:space-x-24 mt-4 xl:mt-10">
@@ -52,7 +52,7 @@
               <p class=" text-sm font-normal">{{ spaceDatas.territory }}</p>
             </div>
 
-            <!-- paw -->
+            <!-- status -->
             <div class=" flex text-xl space-x-5">
               <i class="fas fa-paw"></i>
               <p class=" text-sm font-normal">Status : {{ spaceDatas.statusOfProtection }}</p>
@@ -169,7 +169,7 @@
             stagger: 0.6
           }, 0)
           .from(animatedSquare2, {
-            x: 750,
+            x: 900,
             duration: 2,
             ease: 'power2.out',
             stagger: 0.6
