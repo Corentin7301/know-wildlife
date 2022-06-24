@@ -4,10 +4,10 @@
         background-position: center;
     background-size: cover;
     background-repeat: no-repeat;`"
-      class=" blur h-full w-full flex flex-col justify-center items-center rounded-xl text-center space-y-8">
+      class=" blurPerso h-full w-full flex flex-col justify-center items-center rounded-xl text-center space-y-8">
 
       <div
-        class="h-full w-full flex flex-col items-center justify-center xl:right-28 text-lightColor rounded-xl blur shadow-xl space-y-2 lg:space-y-4 px-5 xl:px-10 py-4 xl:py-8">
+        class="h-full w-full flex flex-col items-center justify-center xl:right-28 text-lightColor rounded-xl blurPerso shadow-xl space-y-2 lg:space-y-4 px-5 xl:px-10 py-4 xl:py-8">
         <h2 class="uppercase font-bold text-xs lg-text-xl text-eggWhite">Il manque l'espèce qui vous intéresse ?</h2>
         <h3 class="uppercase font-bold text-xs lg-text-lg text-eggWhite">Vous voulez contribuer ?</h3>
         <p class="uppercase font-bold text-xs lg-text-sm text-eggWhite">Proposez une espèce ici !</p>
@@ -22,7 +22,7 @@
 </template>
 
 <style scoped>
-  .blur {
+  .blurPerso {
     backdrop-filter: blur(3px);
     box-shadow: inset -3px -3px 24px -2px rgba(0, 0, 0, 0.25);
   }

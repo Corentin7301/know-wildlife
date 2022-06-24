@@ -41,8 +41,8 @@ data() {
 
 </script>
 
-<style lang="scss" scoped>
+<style  scoped>
       .fixedElement {
-        @apply fixed w-6 h-6 bottom-12 right-8 z-50 cursor-pointer text-lightGreen;
+        @apply fixed w-6 h-6 bottom-12 right-8 z-50 cursor-pointer text-lightGreen transition-all hover:transform hover:-translate-y-3;
       }
 </style>

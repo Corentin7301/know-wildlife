@@ -68,7 +68,7 @@
     background-size: cover;
     background-repeat: no-repeat;`">
         <div
-          class=" animatedSquare1 absolute left-8 xl:left-16 bottom-24 rounded-xl blur shadow-xl space-y-3 xl:space-y-4 px-5 xl:px-10 py-4 xl:py-8">
+          class=" animatedSquare1 absolute left-8 xl:left-16 bottom-24 rounded-xl blurPerso shadow-xl space-y-3 xl:space-y-4 px-5 xl:px-10 py-4 xl:py-8">
           <p class="font-normal xl:text-3xl">Période de rut : {{ spaceDatas.rutPeriod }}</p>
           <p class="font-normal xl:text-3xl">Gestation : {{ spaceDatas.pregnancy }}</p>
           <p class="font-normal xl:text-3xl">Portée : {{ spaceDatas.litter }}</p>
@@ -82,7 +82,7 @@
     background-size: cover;
     background-repeat: no-repeat;`">
         <div
-          class=" animatedSquare2 absolute top-16 right-5 xl:right-28 rounded-xl blur shadow-xl xl:space-y-4 px-5 xl:px-10 py-4 xl:py-8">
+          class=" animatedSquare2 absolute top-16 right-5 xl:right-28 rounded-xl blurPerso shadow-xl xl:space-y-4 px-5 xl:px-10 py-4 xl:py-8">
           <p class="font-normal xl:text-3xl">Traces : {{ spaceDatas.paws }}</p>
           <p class="font-normal xl:text-3xl w-60 xl:w-96">Proies : {{ spaceDatas.preys }}</p>
           <p class="font-normal xl:text-3xl">Prédateurs : {{ spaceDatas.predators }}</p>
@@ -191,8 +191,9 @@
 </script>
 
 <style scoped>
-  .blur {
+  .blurPerso {
     background: rgba(55, 61, 32, 0.2);
+    -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     box-shadow: 9px 12px 13px -7px rgba(0, 0, 0, 0.15);
   }
