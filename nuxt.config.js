@@ -1,7 +1,7 @@
 import global from './site.config.json'
 
 export default {
-  ssr: false,
+  // ssr: false,
   target: 'static',
   head: {
     title: global.siteName,
